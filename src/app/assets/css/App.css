@@ -1,0 +1,37 @@
+/* Home.css */
+.section {
+  min-height: 100vh; /* Ensure each section is at least 100% of the viewport height */
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  padding-top: 80px;
+}
+
+/* src/assets/css/App.css */
+
+/* Tambahkan class untuk animasi dari bawah ke atas */
+section .item {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.8s ease-out;
+}
+
+section.visible .item {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+
+
+.section:nth-of-type(even) {
+  background-color: rgb(212, 211, 211);
+  color: #333; /* Text color for light backgrounds */
+}
+
+.section:nth-of-type(odd) {
+  background-color: #2a2a2a;
+  color: #fff; 
+}

@@ -1,0 +1,139 @@
+/* Navbar.css */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  z-index: 1000;
+}
+
+.navbar-brand {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.nav-text {
+  color: #007bff;
+}
+
+.navbar-menu {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.navbar-menu ul {
+  display: flex;
+  gap: 1rem;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  margin: 0;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav-link:hover,
+.nav-item.active .nav-link {
+  color: #007BFF; /* Warna aktif saat hover atau aktif */
+  border-bottom: 2px solid #007BFF; /* Garis bawah untuk efek aktif */
+}
+
+.btn-gradient {
+  background: linear-gradient(to right, #007bff, #000000); /* Gradasi dari biru ke hitam */
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  transition: background 0.3s ease-in-out;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem; /* Rounded corners */
+}
+
+.btn-gradient:hover {
+  background: linear-gradient(to right, #000000, #007bff); /* Gradasi dari hitam ke biru */
+}
+/* Default hidden on mobile view */
+.navbar-menu {
+  display: none;
+
+}
+/* Menu Navigasi Mobile */
+.navbar-menu {
+  display: none; /* Default hidden */
+  position: absolute;
+  top: 100%; /* Di bawah navbar */
+  right: 0; /* Berada di sisi kanan */
+  width: 100%; /* Lebar penuh */
+  background-color: #333; /* Warna latar belakang */
+  padding: 1rem 0; /* Padding untuk menu */
+  text-align: center; /* Pusatkan teks */
+  z-index: 1000; /* Pastikan menu di atas konten lain */
+  transform: translateX(100%); /* Menu mulai dari luar layar kanan */
+  transition: transform 0.3s ease; /* Transisi animasi */
+}
+
+.navbar-menu.open {
+  display: block; /* Tampilkan menu */
+  transform: translateX(0); /* Menu berada di posisi normal */
+}
+
+.navbar-menu ul {
+  display: flex;
+  flex-direction: column; /* Menyusun item menu secara vertikal */
+  align-items: center; /* Pusatkan item menu secara horizontal */
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.navbar-menu ul li {
+  margin: 0;
+}
+
+.navbar-menu ul li a {
+  display: block; /* Membuat area klik lebih besar */
+  padding: 1rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.navbar-menu ul li a:hover {
+  color: #007BFF; /* Warna saat hover */
+  border-bottom: 2px solid #007BFF; /* Garis bawah saat hover */
+}
+
+/* Tampilan Flex di Desktop */
+@media (min-width: 1024px) {
+  .navbar-menu {
+    display: flex; /* Menampilkan menu sebagai flex */
+    position: static; /* Menghilangkan posisi absolute */
+    width: auto; /* Lebar otomatis */
+    background-color: transparent; /* Latar belakang transparan */
+    padding: 0; /* Menghilangkan padding pada desktop */
+    text-align: left; /* Teks rata kiri pada desktop */
+    transform: none; /* Hilangkan transformasi pada desktop */
+  }
+
+  .navbar-menu ul {
+    flex-direction: row; /* Menyusun item menu secara horizontal */
+    align-items: center; /* Pusatkan item menu secara vertikal */
+  }
+
+  .navbar-menu ul li a {
+    padding: 0 1rem; /* Padding horizontal pada desktop */
+    font-size: 20px;
+  }
+}
