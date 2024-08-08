@@ -31,7 +31,7 @@ export default function Footer() {
         </div>
 
         {/* Footer Right */}
-        <div className="footer-right text-center md:text-right">
+        <div className="footer-right text-center md:text-right font-bold">
           <ul className="flex flex-col items-center md:items-end space-y-2">
             <li>
               <a href="#home" className="hover:text-blue-400 text-xl">Home</a>

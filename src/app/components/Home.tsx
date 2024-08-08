@@ -50,7 +50,7 @@ function TypingEffect() {
 export default function Home() {
   return (
     <section id="home" className="section">
-      <div className="flex flex-col md:flex-row items-center md:justify-between">
+      <div className="flex flex-col md:flex-row items-center md:justify-between pt-8">
         {/* Teks di sebelah kiri */}
         <div className="w-full md:w-1/2 p-4">
           <h1 className="text-4xl font-bold mb-4 text-wc">Welcome to My Portfolio</h1>
@@ -67,7 +67,7 @@ export default function Home() {
           </p>
         </div>
         {/* Gambar di sebelah kanan */}
-        <div className="w-full md:w-1/2 p-4 text-center item responsive-image">
+        <div className="w-full md:w-1/2 p-4 text-center item image-foto">
           <Image 
             src={foto}
             alt="Profile"

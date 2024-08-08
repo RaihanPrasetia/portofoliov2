@@ -1,3 +1,13 @@
 .text-tittle {
     font-size: 30px;
 }
+
+@media (max-width: 900px) {
+  .responsive-image {
+    width: 250px; /* Ukuran gambar di tampilan mobile */
+    height: 250px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    padding-top: 0;
+  }
+}

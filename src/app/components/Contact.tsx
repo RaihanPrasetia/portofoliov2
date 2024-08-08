@@ -5,8 +5,8 @@ import '../assets/css/App.css';
 export default function Contact() {
   return (
     <section id="contact" className="section">
-      <div className="container mx-auto px-6 ">
-        <h2 className="text-4xl font-bold text-center mb-12 text-black">Contact Me</h2>
+      <div className="container mx-auto p-6">
+        <h2 className="text-4xl font-bold text-center my-10 text-black">Contact Me</h2>
         <div className="bg-grey-100 rounded-md p-8 shadow-[0_35px_70px_-10px_rgba(0,0,0,0.3)] item">
           <h3 className="text-2xl font-semibold mb-6 text-start text-black">Get in Touch</h3>
           <form className="flex flex-col gap-6">
@@ -39,7 +39,7 @@ export default function Contact() {
                 </div>
 
                 {/* Phone Number */}
-                <div className="flex flex-col mb-4">
+                <div className="flex flex-col mb-4 dm:mb-0">
                   <label htmlFor="phone" className="block text-sm font-medium text-gray-700">Phone Number</label>
                   <input
                     type="tel"
@@ -53,7 +53,7 @@ export default function Contact() {
               {/* Right Column */}
               <div className="flex-1">
                 {/* Subject */}
-                <div className="flex flex-col mb-4">
+                <div className="flex flex-col mb-4 dm:mt-0">
                   <label htmlFor="subject" className="block text-sm font-medium text-gray-700">Subject</label>
                   <input
                     type="text"

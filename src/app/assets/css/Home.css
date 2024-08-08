@@ -1,14 +1,15 @@
-@media (max-width: 768px) {
-  .responsive-image {
-       width: 250px; /* Ukuran gambar di tampilan mobile */
-    height: 250px;
+@media (max-width: 728) {
+  .image-foto {
+    width: 260px; /* Ukuran gambar di tampilan mobile */
+    height: 260px;
     margin-bottom: 25px;
     margin-top: 25px;
     padding-top: 0;
   }
 
   .text-wc {
-    font-size: 28px;
+    margin-top: 20px;
+    font-size: 26px;
   }
 
   .text-hl{
