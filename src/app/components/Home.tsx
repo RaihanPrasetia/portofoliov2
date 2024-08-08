@@ -53,22 +53,27 @@ export default function Home() {
       <div className="flex flex-col md:flex-row items-center md:justify-between">
         {/* Teks di sebelah kiri */}
         <div className="w-full md:w-1/2 p-4">
-          <h1 className="text-4xl font-bold mb-4">Welcome to My Portfolio</h1>
-          <h2 className="text-2xl mb-4">
-            Hello! I am a <span className="text-blue-500 font-bold"> <TypingEffect /></span> 
-          </h2>
-          <p className="text-lg item">
+          <h1 className="text-4xl font-bold mb-4 text-wc">Welcome to My Portfolio</h1>
+          <div className="block md:flex md:items-center md:space-x-4">
+            <h2 className="text-2xl  text-hello md:mb-0 text-hl">
+              Hello! I am a
+            </h2>
+            <span className="text-blue-500 font-bold text-2xl text-hl">
+              <TypingEffect />
+            </span>
+          </div>
+          <p className="text-lg text-justify item mt-4 text-p">
             With a passion for creating dynamic and responsive web applications. Explore my portfolio to see my projects and skills.
           </p>
         </div>
         {/* Gambar di sebelah kanan */}
-        <div className="w-full md:w-1/2 p-4 text-center item">
+        <div className="w-full md:w-1/2 p-4 text-center item responsive-image">
           <Image 
             src={foto}
             alt="Profile"
             className="rounded-full mx-auto"
-                width={380}
-                height={380}
+            width={380}
+            height={380}
           />
         </div>
       </div>

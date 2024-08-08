@@ -1,10 +1,3 @@
 .text-tittle {
     font-size: 30px;
 }
-
-@media (min-width: 1024px) {
-  .responsive-image {
-    width: 250px; /* Ukuran gambar di tampilan mobile */
-    height: 250px;
-  }
-}

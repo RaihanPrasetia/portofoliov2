@@ -1,0 +1,21 @@
+@media (max-width: 768px) {
+  .responsive-image {
+       width: 250px; /* Ukuran gambar di tampilan mobile */
+    height: 250px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    padding-top: 0;
+  }
+
+  .text-wc {
+    font-size: 28px;
+  }
+
+  .text-hl{
+    font-size: 21px;
+  }
+
+  .text-p{
+    font-size: 18px;
+  }
+}
