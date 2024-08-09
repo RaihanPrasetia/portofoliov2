@@ -62,7 +62,7 @@ export default function Home() {
             <TypingEffect />
           </div>
           <p className="text-lg mt-4 text-gray-300">
-            Driven by a deep passion for crafting seamless and responsive web experiences, I specialize in both frontend and backend development. My skills also extend to creating intuitive mobile applications using Flutter. Dive into my portfolio to discover the innovative solutions I've built across multiple platforms.
+            Driven by a deep passion for crafting seamless and responsive web experiences, I specialize in both frontend and backend development. My skills also extend to creating intuitive mobile applications using Flutter. Dive into my portfolio to discover the innovative solutions I have built across multiple platforms.
           </p>
           {/* Button Download CV untuk tampilan mobile */}
           <a
