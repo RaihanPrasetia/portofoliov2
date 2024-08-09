@@ -28,26 +28,26 @@ export default function Navbar() {
     setActiveSection(currentSection);
   };
 
-  useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
-    handleScroll(); // Set initial state
+ useEffect(() => {
+  const handleClickOutside = (event: MouseEvent) => {
+    const menu = document.querySelector('.navbar-menu');
+    const toggler = document.querySelector('.block button');
+    
+    if (menu && toggler && !menu.contains(event.target as Node) && !toggler.contains(event.target as Node)) {
+      setIsMenuOpen(false);
+    }
+  };
 
-    const handleClickOutside = (event: MouseEvent) => {
-      const menu = document.querySelector('.navbar-menu');
-      const toggler = document.querySelector('.block button');
-      
-      if (menu && toggler && !menu.contains(event.target as Node) && !toggler.contains(event.target as Node)) {
-        setIsMenuOpen(false);
-      }
-    };
+  window.addEventListener('scroll', handleScroll);
+  window.addEventListener('click', handleClickOutside);
+  handleScroll(); // Set initial state
 
-    document.addEventListener('mousedown', handleClickOutside);
+  return () => {
+    window.removeEventListener('scroll', handleScroll);
+    window.removeEventListener('click', handleClickOutside);
+  };
+}, [handleScroll]);
 
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-      document.removeEventListener('mousedown', handleClickOutside);
-    };
-  }, []);
 
   const handleClick = (section: string) => {
     setActiveSection(section);

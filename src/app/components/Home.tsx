@@ -1,18 +1,18 @@
 "use client";
 import { useState, useEffect, useRef } from 'react';
-import '../assets/css/Home.css';
-import '../assets/css/App.css';
 import Image from 'next/image';
 import foto from '../assets/images/foto.jpg';
+import '../assets/css/Home.css';
+import '../assets/css/App.css';
 
 const texts = ["Web Developer", "Mobile Developer"];
 
 function TypingEffect() {
   const [text, setText] = useState("");
-  const typingIntervalRef = useRef<NodeJS.Timeout | null>(null);
   const [currentTextIndex, setCurrentTextIndex] = useState(0);
   const [currentCharIndex, setCurrentCharIndex] = useState(0);
-  
+  const typingIntervalRef = useRef<NodeJS.Timeout | null>(null);
+
   useEffect(() => {
     const typeText = () => {
       typingIntervalRef.current = setInterval(() => {
@@ -24,10 +24,11 @@ function TypingEffect() {
         } else {
           clearInterval(typingIntervalRef.current!);
           typingIntervalRef.current = null;
+
           setTimeout(() => {
             setText('');  // Clear text
             setCurrentCharIndex(0); // Reset char index
-            setCurrentTextIndex(prev => (prev + 1) % texts.length); // Move to next text
+            setCurrentTextIndex((prev) => (prev + 1) % texts.length); // Move to next text
             typeText(); // Start typing the next text
           }, 1000); // Pause before typing the next text
         }
@@ -43,7 +44,7 @@ function TypingEffect() {
     };
   }, [currentTextIndex, currentCharIndex]);
 
-  return <span className="text-primary">{text}</span>;
+  return <span className="text-blue-500 font-bold text-2xl">{text}</span>;
 }
 
 export default function Home() {
@@ -51,29 +52,34 @@ export default function Home() {
     <section id="home" className="section">
       <div className="flex flex-col md:flex-row items-center md:justify-between pt-8">
         {/* Teks di sebelah kiri */}
-        <div className="w-full md:w-1/2 p-4 text-cen">
-          <h1 className="text-4xl font-bold mb-4 pt-10 text-wc">Welcome to My <span className="text-blue-500">Portfolio</span></h1>
-          <div className="flex flex-col md:flex-row md:items-center md:space-x-2 min-h-[70px]">
-           <h2 className="text-2xl text-hello md:mb-0 text-hl">
+        <div className="w-full md:w-1/2 p-4 text-center md:text-left">
+          <h1 className="text-4xl font-bold mb-4 pt-10 text-white">
+            Welcome to My <span className="text-blue-500">Portfolio</span>
+          </h1>
+          <div className="flex flex-col md:flex-row md:items-center min-h-[70px]">
+            <h2 className="text-2xl text-white mr-2">
               Hello! I am a
-           </h2>
-           <span className="text-blue-500 font-bold text-2xl text-hl">
+            </h2>
             <TypingEffect />
-            </span>
           </div>
-          <p className="text-lg text-justify item mt-2 text-p text-cen text-ft">
-          Driven by a deep passion for crafting seamless and responsive web experiences, I specialize in both frontend and backend development. My skills also extend to creating intuitive mobile applications using Flutter. Dive into my portfolio to discover the innovative solutions I've built across multiple platforms.
+          <p className="text-lg mt-4 text-gray-300">
+            Driven by a deep passion for crafting seamless and responsive web experiences, I specialize in both frontend and backend development. My skills also extend to creating intuitive mobile applications using Flutter. Dive into my portfolio to discover the innovative solutions I've built across multiple platforms.
           </p>
           {/* Button Download CV untuk tampilan mobile */}
-          <a className="btn-home block lg:hidden mt-4 text-sm item" href="https://drive.google.com/file/d/1O6ER2QzyxMPu8uFfaNmf5fjFKkgO7rMY/view?usp=sharing" target="_blank">
+          <a
+            className="btn-home block lg:hidden mt-4 text-sm bg-blue-500 text-white py-2 px-4 rounded"
+            href="https://drive.google.com/file/d/1O6ER2QzyxMPu8uFfaNmf5fjFKkgO7rMY/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Download CV
           </a>
         </div>
         {/* Gambar di sebelah kanan */}
-        <div className="w-full md:w-1/2 p-4 text-center item image-foto">
-          <Image 
+        <div className="w-full md:w-1/2 p-4 text-center">
+          <Image
             src={foto}
-            alt="Profile"
+            alt="Profile Picture of Raihan Prasetia"
             className="rounded-full mx-auto"
             width={380}
             height={380}
