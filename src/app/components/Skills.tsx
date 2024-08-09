@@ -1,11 +1,12 @@
 "use client";
+
 import Image from "next/image";
 import logo1 from '../assets/images/logos/mysql.png';
 import logo2 from '../assets/images/logos/php.png';
 import logo3 from '../assets/images/logos/laravel.png';
 import logo4 from '../assets/images/logos/js.png';
 import logo5 from '../assets/images/logos/react.png';
-import logo6 from '../assets/images/logos/nextjs.png';
+import logo6 from '../assets/images/logos/logonextjs.png';
 
 
 
