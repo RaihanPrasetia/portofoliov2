@@ -18,9 +18,9 @@ export default function HomePage() {
       <main className="main-content w-100">
         <Home />
         <About />
+        <Skills />
         <Certificates />
         <Projects />
-        <Skills />
         <Contact />
       </main>
       <Footer /> 

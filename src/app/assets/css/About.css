@@ -4,10 +4,8 @@
 
 @media (max-width: 900px) {
   .responsive-image {
-    width: 250px; /* Ukuran gambar di tampilan mobile */
-    height: 250px;
-    margin-bottom: 25px;
-    margin-top: 25px;
-    padding-top: 0;
+    width: 340px; /* Ukuran gambar di tampilan mobile */
+    padding-top: 25px;
+    padding-bottom: 0;
   }
 }

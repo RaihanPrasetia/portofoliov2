@@ -40,7 +40,8 @@ width: 100%;
   text-decoration: none;
   display: inline-flex; /* Pastikan ukuran tombol proporsional dengan ukuran teks */
   align-items: center; /* Vertikal pusat teks di dalam tombol */
-  font-size: 1rem; 
+  font-size: 1rem;
+  font-weight: bold; 
   }
 }
 

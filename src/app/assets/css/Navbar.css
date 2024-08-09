@@ -45,8 +45,8 @@
 
 .nav-link:hover,
 .nav-item.active .nav-link {
-  color: #007BFF; /* Warna aktif saat hover atau aktif */
-  border-bottom: 2px solid #007BFF; /* Garis bawah untuk efek aktif */
+  color: #1581f4; /* Warna aktif saat hover atau aktif */
+  border-bottom: 2px solid #1581f4; /* Garis bawah untuk efek aktif */
 }
 
 
@@ -113,8 +113,8 @@
 }
 
 .navbar-menu ul li a:hover {
-  color: #007BFF; /* Warna saat hover */
-  border-bottom: 2px solid #007BFF; /* Garis bawah saat hover */
+  color: #1581f4; /* Warna saat hover */
+  border-bottom: 2px solid #1581f4; /* Garis bawah saat hover */
 }
 
 /* Tampilan Flex di Desktop */

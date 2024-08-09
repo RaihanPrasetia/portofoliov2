@@ -9,6 +9,10 @@
   padding-top: 80px;
 }
 
+.footer {
+  background-color: #333;
+}
+
 /* src/assets/css/App.css */
 
 /* Tambahkan class untuk animasi dari bawah ke atas */
@@ -39,7 +43,40 @@ section.visible .item {
 @media (max-width: 768px) {
   .section {
     padding: 10px 0;
-    padding-top: 40px;
+    padding-top: 20px;
+  }
+
+  .text-cen{
+    text-align: center;
+  }
+
+  .text-copy{
+    font-size: 12px;
+    font-weight: normal;
+  }
+
+  .text-ft {
+    font-size: 14px;
   }
   
+.text-send{
+  font-size: 14px;
+  padding: 5px 10px;
+}
+
+  .text-i {
+    font-size: 16px;
+  }
+
+  .text-med{
+    font-size: 18px;
+  }
+
+  .text-tf {
+    font-size: 28px;
+  }
+
+  .social-icons {
+    padding-top: 0;
+  }
 }

@@ -5,7 +5,7 @@ import '../assets/css/App.css';
 import Image from 'next/image';
 import foto from '../assets/images/foto.jpg';
 
-const texts = ["Fullstack Developer", "Frontend Developer", "Backend Developer"];
+const texts = ["Web Developer", "Mobile Developer"];
 
 function TypingEffect() {
   const [text, setText] = useState("");
@@ -51,18 +51,18 @@ export default function Home() {
     <section id="home" className="section">
       <div className="flex flex-col md:flex-row items-center md:justify-between pt-8">
         {/* Teks di sebelah kiri */}
-        <div className="w-full md:w-1/2 p-4">
-          <h1 className="text-4xl font-bold mb-4 text-wc">Welcome to My Portfolio</h1>
-          <div className="flex flex-col md:flex-row md:items-center md:space-x-4 min-h-[70px]">
+        <div className="w-full md:w-1/2 p-4 text-cen">
+          <h1 className="text-4xl font-bold mb-4 pt-10 text-wc">Welcome to My <span className="text-blue-500">Portfolio</span></h1>
+          <div className="flex flex-col md:flex-row md:items-center md:space-x-2 min-h-[70px]">
            <h2 className="text-2xl text-hello md:mb-0 text-hl">
               Hello! I am a
            </h2>
            <span className="text-blue-500 font-bold text-2xl text-hl">
-              <TypingEffect />
+            <TypingEffect />
             </span>
           </div>
-          <p className="text-lg text-justify item mt-2 text-p">
-            With a passion for creating dynamic and responsive web applications. Explore my portfolio to see my projects and skills.
+          <p className="text-lg text-justify item mt-2 text-p text-cen text-ft">
+          Driven by a deep passion for crafting seamless and responsive web experiences, I specialize in both frontend and backend development. My skills also extend to creating intuitive mobile applications using Flutter. Dive into my portfolio to discover the innovative solutions I've built across multiple platforms.
           </p>
           {/* Button Download CV untuk tampilan mobile */}
           <a className="btn-home block lg:hidden mt-4 text-sm item" href="https://drive.google.com/file/d/1O6ER2QzyxMPu8uFfaNmf5fjFKkgO7rMY/view?usp=sharing" target="_blank">
