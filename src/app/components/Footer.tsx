@@ -40,13 +40,13 @@ export default function Footer() {
               <a href="#about" className="hover:text-blue-400 text-xl">About</a>
             </li>
             <li>
-              <a href="#skills" className="hover:text-blue-400 text-xl">Skills</a>
-            </li>
-            <li>
               <a href="#certificates" className="hover:text-blue-400 text-xl">Certificates</a>
             </li>
             <li>
               <a href="#projects" className="hover:text-blue-400 text-xl">Projects</a>
+            </li>
+            <li>
+              <a href="#skills" className="hover:text-blue-400 text-xl">Skills</a>
             </li>
             <li>
               <a href="#contact" className="hover:text-blue-400 text-xl">Contact</a>

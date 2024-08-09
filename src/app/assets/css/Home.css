@@ -1,4 +1,4 @@
-@media (max-width: 728) {
+@media (min-width: 728) {
   .image-foto {
     width: 260px; /* Ukuran gambar di tampilan mobile */
     height: 260px;
@@ -18,5 +18,29 @@
 
   .text-p{
     font-size: 18px;
+  }
+  
+}
+
+/* Tampilkan tombol hanya pada tampilan mobile */
+@media (max-width: 1024px) {
+  .btn-home {
+    display: block; /* Tampilkan tombol pada tampilan mobile */
+    background: linear-gradient(to left, #007bff, #000000); /* Gradasi dari biru ke hitam */
+  color: #fff;
+  padding: 0.5rem 1rem; /* Sesuaikan padding dengan ukuran teks */
+  border-radius: 0.25rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-flex; /* Pastikan ukuran tombol proporsional dengan ukuran teks */
+  align-items: center; /* Vertikal pusat teks di dalam tombol */
+  font-size: 1rem; 
+  }
+}
+
+/* Sembunyikan tombol pada tampilan desktop */
+@media (min-width: 1025px) {
+  .btn-home {
+    display: none; /* Sembunyikan tombol pada tampilan desktop */
   }
 }

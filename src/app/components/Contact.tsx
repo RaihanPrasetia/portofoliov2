@@ -8,7 +8,7 @@ export default function Contact() {
       <div className="container mx-auto p-6">
         <h2 className="text-4xl font-bold text-center my-10 text-black">Contact Me</h2>
         <div className="bg-grey-100 rounded-md p-8 shadow-[0_35px_70px_-10px_rgba(0,0,0,0.3)] item">
-          <h3 className="text-2xl font-semibold mb-6 text-start text-black">Get in Touch</h3>
+          <h3 className="text-2xl font-semibold mb-6 text-start text-black text-p">Get in Touch</h3>
           <form className="flex flex-col gap-6">
             {/* Flex Container */}
             <div className="flex flex-col md:flex-row gap-6">
@@ -81,7 +81,7 @@ export default function Contact() {
             <div className="flex justify-end">
               <button
                 type="submit"
-                className="bg-blue-600 text-white py-1.5 px-4 rounded-lg shadow-sm hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 text-sm"
+                className="bg-gradient-to-r from-blue-700 to-black text-white py-1.5 px-4 rounded-lg shadow-sm  hover:from-blue-700 hover:to-black focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 text-lg"
               >
                 Send Message
               </button>

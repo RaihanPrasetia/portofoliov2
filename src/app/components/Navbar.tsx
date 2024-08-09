@@ -8,7 +8,7 @@ import '../assets/css/App.css';
 export default function Navbar() {
   const [activeSection, setActiveSection] = useState('home');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const sections = ['home', 'about', 'skills', 'certificates', 'projects', 'contact'];
+  const sections = ['home', 'about', 'certificates', 'projects', 'skills', 'contact'];
 
   const handleScroll = () => {
     let currentSection = 'home';
@@ -79,8 +79,9 @@ export default function Navbar() {
             ))}
           </ul>
         </div>
-
-        <a className="btn-gradient ml-3 hidden lg:inline-block" href="/path/to/your/cv.pdf" download>Download CV</a>
+        <a className="btn-gradient btn-navbar ml-3" href="https://drive.google.com/file/d/1O6ER2QzyxMPu8uFfaNmf5fjFKkgO7rMY/view?usp=sharing">
+          Download CV
+        </a>
       </div>
     </nav>
   );

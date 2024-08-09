@@ -1,4 +1,3 @@
-// src/app/components/Home.tsx
 "use client";
 import { useState, useEffect, useRef } from 'react';
 import '../assets/css/Home.css';
@@ -55,7 +54,7 @@ export default function Home() {
         <div className="w-full md:w-1/2 p-4">
           <h1 className="text-4xl font-bold mb-4 text-wc">Welcome to My Portfolio</h1>
           <div className="block md:flex md:items-center md:space-x-4">
-            <h2 className="text-2xl  text-hello md:mb-0 text-hl">
+            <h2 className="text-2xl text-hello md:mb-0 text-hl">
               Hello! I am a
             </h2>
             <span className="text-blue-500 font-bold text-2xl text-hl">
@@ -65,6 +64,10 @@ export default function Home() {
           <p className="text-lg text-justify item mt-4 text-p">
             With a passion for creating dynamic and responsive web applications. Explore my portfolio to see my projects and skills.
           </p>
+          {/* Button Download CV untuk tampilan mobile */}
+          <a className="btn-home block lg:hidden mt-4 text-sm" href="https://drive.google.com/file/d/1O6ER2QzyxMPu8uFfaNmf5fjFKkgO7rMY/view?usp=sharing">
+            Download CV
+          </a>
         </div>
         {/* Gambar di sebelah kanan */}
         <div className="w-full md:w-1/2 p-4 text-center item image-foto">
