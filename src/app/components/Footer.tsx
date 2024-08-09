@@ -15,16 +15,16 @@ export default function Footer() {
         <div className="footer-center text-center mb-6 md:mb-0">
           <h3 className="text-3xl font-semibold mb-4">Media Sosial</h3>
           <div className="social-icons flex justify-center md:justify-start space-x-10">
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-600 text-2xl">
+            <a href="https://www.facebook.com/share/1Ter3eECZctGeDX8/?mibextid=LQQJ4d " target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-600 text-2xl">
               <i className="fab fa-facebook-f"></i>
             </a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-400 text-2xl">
+            <a href="https://x.com/prasetia_raihan" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-400 text-2xl">
               <i className="fab fa-twitter"></i>
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-700 text-2xl">
+            <a href="http://linkedin.com/in/raihan-prasetia-4761832a2" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-700 text-2xl">
               <i className="fab fa-linkedin-in"></i>
             </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-pink-500 text-2xl">
+            <a href="https://www.instagram.com/raihanprasetia?igsh=MXkwd3I1ZXM4eGRmdQ%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" className="text-white hover:text-pink-500 text-2xl">
               <i className="fab fa-instagram"></i>
             </a>
           </div>

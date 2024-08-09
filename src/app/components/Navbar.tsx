@@ -79,7 +79,7 @@ export default function Navbar() {
             ))}
           </ul>
         </div>
-        <a className="btn-gradient btn-navbar ml-3" href="https://drive.google.com/file/d/1O6ER2QzyxMPu8uFfaNmf5fjFKkgO7rMY/view?usp=sharing">
+        <a className="btn-gradient btn-navbar ml-3" href="https://drive.google.com/file/d/1O6ER2QzyxMPu8uFfaNmf5fjFKkgO7rMY/view?usp=sharing" target="_blank">
           Download CV
         </a>
       </div>
