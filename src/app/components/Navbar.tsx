@@ -3,7 +3,6 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import '../assets/css/Navbar.css';
-import '../assets/css/App.css';
 
 export default function Navbar() {
   const [activeSection, setActiveSection] = useState('home');
