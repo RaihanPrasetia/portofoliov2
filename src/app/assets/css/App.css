@@ -86,5 +86,5 @@ section.visible .item {
 }
 /* App.css */
 .custom-white-shadow {
-  box-shadow: 6px -6px 10px rgba(255, 255, 255, 0.1);
+  box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.1);
 }

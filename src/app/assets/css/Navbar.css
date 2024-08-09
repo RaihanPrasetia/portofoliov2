@@ -141,8 +141,10 @@
 
 @media (min-width: 1025px) {
   .btn-navbar {
-    display: inline-block; /* Tampilkan tombol pada tampilan desktop */
+    display: inline-block;
+    padding-right: 20px; /* Tampilkan tombol pada tampilan desktop */
   }
+  
 }
 
 /* Sembunyikan tombol pada tampilan mobile */
