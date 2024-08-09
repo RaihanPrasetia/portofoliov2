@@ -12,8 +12,14 @@
     font-size: 26px;
   }
 
+  .text-con {
+height: 50px;
+width: 100%;
+
+  }
   .text-hl{
     font-size: 21px;
+    height: 50px;
   }
 
   .text-p{
