@@ -65,7 +65,7 @@ export default function Home() {
             With a passion for creating dynamic and responsive web applications. Explore my portfolio to see my projects and skills.
           </p>
           {/* Button Download CV untuk tampilan mobile */}
-          <a className="btn-home block lg:hidden mt-4 text-sm" href="https://drive.google.com/file/d/1O6ER2QzyxMPu8uFfaNmf5fjFKkgO7rMY/view?usp=sharing" target="_blank">
+          <a className="btn-home block lg:hidden mt-4 text-sm item" href="https://drive.google.com/file/d/1O6ER2QzyxMPu8uFfaNmf5fjFKkgO7rMY/view?usp=sharing" target="_blank">
             Download CV
           </a>
         </div>

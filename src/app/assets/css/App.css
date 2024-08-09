@@ -27,8 +27,8 @@ section.visible .item {
 
 
 .section:nth-of-type(even) {
-  background-color: rgb(212, 211, 211);
-  color: #333; /* Text color for light backgrounds */
+  background-color: rgb(46, 45, 67);
+  color: white; /* Text color for light backgrounds */
 }
 
 .section:nth-of-type(odd) {

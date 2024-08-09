@@ -19,9 +19,9 @@ export default function About() {
           />
         </div>
         <div className="w-full md:w-1/2 p-4">
-        <h1 className="text-4xl font-bold my-4">About Me</h1>
+        <h1 className="text-4xl font-bold my-4 text-get">About Me</h1>
           <p className="text-lg text-justify text-center pr-4 item">
-             I am Raihan Prasetia, an active student in the 6th semester of the Informatics Engineering study program from Dinamika Bangsa University Jambi City. I have an interest in IT and technology, and I am eager to develop my skills, especially in Web Development and Mobile Development.
+              I am Raihan Prasetia, an active student in the 6th semester of the Informatics Engineering study program from Dinamika Bangsa University Jambi City. I have an interest in IT and technology, and I am eager to develop my skills, especially in Web Development and Mobile Development.
           </p>
         </div>
         {/* Gambar di sebelah kanan */}

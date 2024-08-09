@@ -49,7 +49,7 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="container mx-auto flex items-center justify-between p-4 relative">
-        <a className="navbar-brand" href="#home">My<span className="text-blue-400">Portfolio</span></a>
+        <a className="navbar-brand" href="#home">My<span className="text-blue-500">Portfolio</span></a>
 
         {/* Button Toggler */}
         <div className="block lg:hidden">
