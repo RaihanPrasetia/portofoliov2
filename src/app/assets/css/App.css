@@ -79,4 +79,12 @@ section.visible .item {
   .social-icons {
     padding-top: 0;
   }
+.custom-white-shadow {
+  box-shadow: -6px 6px 10px rgba(255, 255, 255, 0.2);
+}
+
+}
+/* App.css */
+.custom-white-shadow {
+  box-shadow: 6px -6px 10px rgba(255, 255, 255, 0.1);
 }

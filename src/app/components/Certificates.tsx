@@ -21,7 +21,7 @@ export default function Certificates() {
         <div className="flex flex-wrap -mx-4 ">
           {certificates.map(certificate => (
             <div key={certificate.id} className="w-full sm:w-1/2 md:w-1/3 px-4 mb-8 ">
-              <div className="bg-white rounded-lg shadow-md overflow-hidden h-full bg-gradient-to-r from-blue-700 to-black item">
+              <div className="bg-white rounded-lg shadow-md overflow-hidden h-full bg-gradient-to-r from-slate-600 to-black item custom-white-shadow">
                 <div className="p-4">
                   <h2 className="text-xl font-bold text-center text-white text-ft">{certificate.title}</h2>
                 </div>

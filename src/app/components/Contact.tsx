@@ -80,7 +80,7 @@ export default function Contact() {
             <div className="flex justify-end">
               <button
                 type="submit"
-                className="bg-gradient-to-l from-blue-500 to-black text-white py-1.5 px-6 rounded-lg shadow-sm  hover:from-blue-700 hover:to-black focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 text-lg font-bold text-send"
+                className="bg-gradient-to-l from-blue-600 to-slate-700  text-white py-1.5 px-6 rounded-lg shadow-sm  hover:from-blue-700 hover:to-black focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 text-lg font-bold text-send custom-white-shadow"
               >
                 Send Message
               </button>
