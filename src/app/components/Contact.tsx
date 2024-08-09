@@ -1,5 +1,4 @@
 "use client";
-import '../assets/css/App.css';
 import '../assets/css/Contact.css';
 
 

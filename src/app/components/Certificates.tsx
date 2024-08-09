@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import '../assets/css/Certificate.css';
-import '../assets/css/App.css';
 import Certificate1 from '../assets/images/Certificate1.jpg';
 import Certificate2 from '../assets/images/Certificate2.jpg';
 import Certificate3 from '../assets/images/Certificate3.jpg';

@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import foto from '../assets/images/idcard.jpg';
-import '../assets/css/App.css';
 import '../assets/css/About.css';
 
 

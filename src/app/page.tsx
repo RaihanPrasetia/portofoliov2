@@ -1,4 +1,3 @@
-// src/app/page.tsx
 import './assets/css/App.css'
 import Home from './components/Home';
 import About from './components/About';
@@ -15,7 +14,7 @@ export default function HomePage() {
   return (
     <div>
       <Navbar />
-      <main className="main-content w-100">
+      <main>
         <Home />
         <About />
         <Skills />

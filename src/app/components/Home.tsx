@@ -3,7 +3,6 @@ import { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
 import foto from '../assets/images/foto.jpg';
 import '../assets/css/Home.css';
-import '../assets/css/App.css';
 
 const texts = ["Web Developer", "Mobile Developer"];
 
