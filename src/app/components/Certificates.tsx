@@ -18,7 +18,7 @@ export default function Certificates() {
           <i className="fa-solid fa-certificate mr-3 text-yellow-500"></i>
             Certificates
         </h2>
-        <div className="flex flex-wrap -mx-4 ">
+        <div className="flex flex-wrap -mx-4 pt-12 ">
           {certificates.map(certificate => (
             <div key={certificate.id} className="w-full sm:w-1/2 md:w-1/3 px-4 mb-8 ">
               <div className="bg-white rounded-lg shadow-md overflow-hidden h-full bg-gradient-to-r from-slate-600 to-black item custom-white-shadow">

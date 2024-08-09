@@ -49,9 +49,9 @@ function TypingEffect() {
 export default function Home() {
   return (
     <section id="home" className="section">
-      <div className="flex flex-col md:flex-row items-center md:justify-between pt-8">
+      <div className="flex flex-col md:flex-row items-center md:justify-between pt-8 px-10">
         {/* Teks di sebelah kiri */}
-        <div className="w-full md:w-1/2 p-4 text-center md:text-left">
+        <div className="w-full md:w-1/2 p-4 text-center md:text-justify">
           <h1 className="text-4xl font-bold mb-4 pt-10 text-white">
             Welcome to My <span className="text-blue-500">Portfolio</span>
           </h1>
@@ -61,12 +61,12 @@ export default function Home() {
             </h2>
             <TypingEffect />
           </div>
-          <p className="text-lg mt-4 text-gray-300">
+          <p className="text-lg mt-4 text-gray-300 text-ft">
             Driven by a deep passion for crafting seamless and responsive web experiences, I specialize in both frontend and backend development. My skills also extend to creating intuitive mobile applications using Flutter. Dive into my portfolio to discover the innovative solutions I have built across multiple platforms.
           </p>
           {/* Button Download CV untuk tampilan mobile */}
           <a
-            className="btn-home block lg:hidden mt-4 text-sm bg-blue-500 text-white py-2 px-4 rounded"
+            className="btn-home block lg:hidden mt-4 text-sm bg-gradient-to-l from-blue-600 to-slate-700 text-white py-2 px-4 rounded custom-white-shadow"
             href="https://drive.google.com/file/d/1O6ER2QzyxMPu8uFfaNmf5fjFKkgO7rMY/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"

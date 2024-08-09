@@ -39,7 +39,7 @@ export default function Skills() {
   <section id="skills" className="section">
       <div className="container mx-auto px-4 pt-20 pb-6">
         <h2 className="text-4xl font-bold text-center text-white text-cert text-tf"><i className="fa-solid fa-code-branch mr-3 text-yellow-500"></i>Skills</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 pt-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 pt-20">
           {skills.map(skill => (
             <div key={skill.id} className="bg-gradient-to-t from-slate-600 to-grey custom-white-shadow rounded-lg p-6 flex flex-col items-center justify-center min-h-[250px] item">
               <div className="flex-grow flex items-center justify-center">

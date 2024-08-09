@@ -6,7 +6,7 @@ import '../assets/css/About.css';
 export default function About() {
   return (
     <section id="about" className="section p-0">
-      <div className="flex flex-col md:flex-row items-center md:justify-between">
+      <div className="flex flex-col md:flex-row items-center md:justify-between px-8">
         {/* Teks di sebelah kiri */}
         <div className="w-full md:w-1/2 px-4 text-center item responsive-image">
           <Image 

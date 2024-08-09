@@ -6,8 +6,8 @@ export default function Contact() {
   return (
     <section id="contact" className="section">
       <div className="container mx-auto p-6">
-        <h2 className="text-4xl font-bold text-center pt-12 pb-6 text-tf"><i className="fa-solid fa-envelope mr-3 text-yellow-500"></i>Contact Me</h2>
-        <div className="bg-grey-100 rounded-md px-8 pb-8 item">
+        <h2 className="text-4xl font-bold text-center pt-12 text-tf"><i className="fa-solid fa-envelope mr-3 text-yellow-500"></i>Contact Me</h2>
+        <div className="bg-grey-100 rounded-md px-8 py-12 item">
           <form className="flex flex-col gap-6">
             {/* Flex Container */}
             <div className="flex flex-col md:flex-row gap-6">
