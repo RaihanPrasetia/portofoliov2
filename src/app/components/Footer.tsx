@@ -7,7 +7,7 @@ export default function Footer() {
         {/* Footer Left */}
         <div className="footer-left text-center md:text-left mb-6 md:mb-0  min-w-[250px]">
           <h2 className="text-4xl font-bold text-tf">
-            My<span className="text-blue-500">Portfolio</span>
+            My<span className="text-blue-600">Portfolio</span>
           </h2>
         </div>
 
