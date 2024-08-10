@@ -8,7 +8,7 @@ export default function About() {
     <section id="about" className="section p-0">
       <div className="flex flex-col md:flex-row items-center md:justify-between">
         {/* Teks di sebelah kiri */}
-        <div className="w-full md:w-1/2 px-4 text-center item responsive-image">
+        <div className="w-full md:w-1/2  text-center item responsive-image">
           <Image 
             src={foto}
             alt="Profile"

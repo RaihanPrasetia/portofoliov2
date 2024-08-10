@@ -10,7 +10,6 @@
 }
 
 .navbar-brand {
-  font-size: 32px;
   font-weight: bold;
 }
 
@@ -26,7 +25,7 @@
 
 .navbar-menu ul {
   display: flex;
-  gap: 1rem;
+  gap: 10px;
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -71,18 +70,17 @@
 }
 /* Menu Navigasi Mobile */
 .navbar-menu {
-  display: none; /* Default hidden */
   position: absolute;
   top: 100%; /* Di bawah navbar */
   right: 0; /* Berada di sisi kanan */
   width: 100%; /* Lebar penuh */
   background-color: #333; /* Warna latar belakang */
-  padding: 1rem 0; /* Padding untuk menu */
   text-align: center; /* Pusatkan teks */
   z-index: 1000; /* Pastikan menu di atas konten lain */
   transform: translateX(100%); /* Menu mulai dari luar layar kanan */
-  transition: transform 0.3s ease; /* Transisi animasi */
+  transition: transform 0.6s ease; /* Transisi animasi */
 }
+
 
 .navbar-menu.open {
   display: block; /* Tampilkan menu */
@@ -104,10 +102,10 @@
 
 .navbar-menu ul li a {
   display: block; /* Membuat area klik lebih besar */
-  padding: 1rem;
+  padding: 10px 0;
   color: white;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 20px;
 }
 
@@ -136,6 +134,15 @@
   .navbar-menu ul li a {
     padding: 0 1rem; /* Padding horizontal pada desktop */
     font-size: 20px;
+  }
+
+  .navbar-brand {
+    font-size: 32px;
+    padding-left: 40px;
+  }
+
+  .btn-gradient {
+    margin-right: 40px;
   }
 }
 

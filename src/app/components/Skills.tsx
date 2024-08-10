@@ -13,7 +13,7 @@ import logo9 from '../assets/images/logos/tailwind.png';
 import logo10 from '../assets/images/logos/dart.png';
 import logo11 from '../assets/images/logos/flutter.png';
 import logo12 from '../assets/images/logos/golang.png';
-// import logo13 from '../assets/images/logos/codei.png';
+import logo13 from '../assets/images/logos/github.png';
 
 
 
@@ -31,7 +31,7 @@ export default function Skills() {
     { id: 10, title: 'Dart', image: logo10 },
     { id: 11, title: 'Flutter', image: logo11 },
     { id: 12, title: 'Golang', image: logo12 },
-    // { id: 13, title: 'CodeIgniter', image: logo13 },
+    { id: 13, title: 'Github', image: logo13 },
     // Tambahkan skill lainnya di sini
   ];
 
