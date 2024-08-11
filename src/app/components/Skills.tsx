@@ -14,6 +14,7 @@ import logo10 from '../assets/images/logos/dart.png';
 import logo11 from '../assets/images/logos/flutter.png';
 import logo12 from '../assets/images/logos/golang.png';
 import logo13 from '../assets/images/logos/github.png';
+import logo14 from '../assets/images/logos/codei.png';
 
 
 
@@ -32,6 +33,7 @@ export default function Skills() {
     { id: 11, title: 'Flutter', image: logo11 },
     { id: 12, title: 'Golang', image: logo12 },
     { id: 13, title: 'Github', image: logo13 },
+    { id: 14, title: 'CodeIgniter', image: logo14 },
     // Tambahkan skill lainnya di sini
   ];
 
