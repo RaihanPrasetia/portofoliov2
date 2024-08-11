@@ -15,6 +15,7 @@ import logo11 from '../assets/images/logos/flutter.png';
 import logo12 from '../assets/images/logos/golang.png';
 import logo13 from '../assets/images/logos/github.png';
 import logo14 from '../assets/images/logos/codei.png';
+import logo15 from '../assets/images/logos/html.png';
 
 
 
@@ -22,18 +23,19 @@ export default function Skills() {
   const skills = [
     { id: 1, title: 'Mysql', image: logo1 },
     { id: 2, title: 'PHP', image: logo2 },
-    { id: 3, title: 'Laravel', image: logo3 },
+    { id: 3, title: 'html', image: logo15 },
     { id: 4, title: 'Javascript', image: logo4 },
-    { id: 5, title: 'React.js', image: logo5 },
-    { id: 6, title: 'Next.Js', image: logo6 },
-    { id: 7, title: 'CSS', image: logo7 },
-    { id: 8, title: 'Bootstrap', image: logo8 },
-    { id: 9, title: 'Tailwind', image: logo9 },
-    { id: 10, title: 'Dart', image: logo10 },
-    { id: 11, title: 'Flutter', image: logo11 },
-    { id: 12, title: 'Golang', image: logo12 },
-    { id: 13, title: 'Github', image: logo13 },
-    { id: 14, title: 'CodeIgniter', image: logo14 },
+    { id: 5, title: 'CSS', image: logo7 },
+    { id: 6, title: 'Github', image: logo13 },
+    { id: 7, title: 'Dart', image: logo10 },
+    { id: 8, title: 'Flutter', image: logo11 },
+    { id: 9, title: 'Laravel', image: logo3 },
+    { id: 10, title: 'CodeIgniter', image: logo14 },
+    { id: 11, title: 'React.js', image: logo5 },
+    { id: 12, title: 'Next.Js', image: logo6 },
+    { id: 13, title: 'Bootstrap', image: logo8 },
+    { id: 14, title: 'Tailwind', image: logo9 },
+    { id: 15, title: 'Golang', image: logo12 },
     // Tambahkan skill lainnya di sini
   ];
 
