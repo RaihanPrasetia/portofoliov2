@@ -92,7 +92,7 @@
   flex-direction: column; /* Menyusun item menu secara vertikal */
   align-items: center; /* Pusatkan item menu secara horizontal */
   margin: 0;
-  padding: 0;
+  padding-bottom: 20px;
   list-style-type: none;
 }
 
