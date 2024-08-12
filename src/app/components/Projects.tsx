@@ -32,7 +32,7 @@ export default function Projects() {
 
   return (
     <section id="projects" className="section py-20">
-      <div className="container mx-auto px-4 pt-20 pb-6">
+      <div className="container mx-auto px-4 pt-20 pb-10">
         <h2 className="text-4xl font-bold text-center text-white text-cert text-tf pt-4">
           <i className="fa-solid fa-briefcase mr-3 text-yellow-500"></i>
           Project
