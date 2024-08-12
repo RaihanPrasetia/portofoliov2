@@ -1,0 +1,13 @@
+@media (min-width: 728) {
+  .size-logo {
+    width: 10px; /* Ukuran gambar di tampilan mobile */
+    height: 10px;
+  }
+
+  .text-logo {
+    font-size: 8px;
+    font-weight: 600;
+  }
+
+  
+}
