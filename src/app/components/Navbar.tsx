@@ -76,7 +76,7 @@ export default function Navbar() {
         </div>
 
         {/* Menu Navigasi */}
-        <div className={`navbar-menu bg-transparent ${isMenuOpen ? 'open' : ''}`}>
+        <div className={`navbar-menu py-6 bg-transparent ${isMenuOpen ? 'open' : ''}`}>
           <ul>
             {sections.map(section => (
               <li key={section} className={`nav-item ${activeSection === section ? 'active' : ''}`}>
