@@ -16,6 +16,7 @@ import logo12 from '../assets/images/logos/golang.png';
 import logo13 from '../assets/images/logos/github.png';
 import logo14 from '../assets/images/logos/codei.png';
 import logo15 from '../assets/images/logos/html.png';
+import logo16 from '../assets/images/logos/nodejs.png';
 
 
 
@@ -33,9 +34,10 @@ export default function Skills() {
     { id: 10, title: 'CodeIgniter', image: logo14 },
     { id: 11, title: 'React.js', image: logo5 },
     { id: 12, title: 'Next.Js', image: logo6 },
-    { id: 13, title: 'Bootstrap', image: logo8 },
-    { id: 14, title: 'Tailwind', image: logo9 },
-    { id: 15, title: 'Golang', image: logo12 },
+    { id: 13, title: 'Node.Js', image: logo16 },
+    { id: 14, title: 'Bootstrap', image: logo8 },
+    { id: 15, title: 'Tailwind', image: logo9 },
+    { id: 16, title: 'Golang', image: logo12 },
     // Tambahkan skill lainnya di sini
   ];
 
