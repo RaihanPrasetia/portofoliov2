@@ -16,7 +16,7 @@ import logo12 from '../assets/images/logos/golang.png';
 import logo13 from '../assets/images/logos/github.png';
 import logo14 from '../assets/images/logos/codei.png';
 import logo15 from '../assets/images/logos/html.png';
-import logo16 from '../assets/images/logos/nodejs.png';
+import logo16 from '../assets/images/logos/nodejs2.png';
 
 
 
