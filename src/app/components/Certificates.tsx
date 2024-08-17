@@ -4,12 +4,14 @@ import Certificate1 from '../assets/images/Certificate1.jpg';
 import Certificate2 from '../assets/images/Certificate2.jpg';
 import Certificate3 from '../assets/images/Certificate3.jpg';
 import Certificate4 from '../assets/images/Certificate4.jpg';
+import Certificate5 from '../assets/images/Certificate5.jpg';
 
 const certificates = [
   { id: 1, title: 'Certificate Peserta - Vetencode', image: Certificate1 },
   { id: 2, title: 'Certificate MSIB 6 - Kampus Merdeka', image: Certificate2 },
   { id: 3, title: 'Pemprograman Web Dasar - Dicoding', image: Certificate3 },
   { id: 4, title: 'Membuat Aplikasi Back-End - Dicoding', image: Certificate4 },
+  { id: 5, title: 'Cloud Practitioner Essentials (AWS Cloud)', image: Certificate5 },
 ];
 
 export default function Certificates() {
