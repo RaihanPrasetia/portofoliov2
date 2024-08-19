@@ -6,6 +6,7 @@ import Certificate3 from '../assets/images/Certificate3.jpg';
 import Certificate4 from '../assets/images/Certificate4.jpg';
 import Certificate5 from '../assets/images/Certificate5.jpg';
 import Certificate6 from '../assets/images/Certificate6.jpg';
+import Certificate7 from '../assets/images/Certificate7.jpg';
 
 const certificates = [
   { id: 1, title: 'Certificate Peserta - Vetencode', image: Certificate1 },
@@ -14,7 +15,8 @@ const certificates = [
   { id: 4, title: 'Membuat Aplikasi Back-End - Dicoding', image: Certificate4 },
   { id: 5, title: 'Cloud Practitioner Essentials (AWS Cloud)', image: Certificate5 },
   { id: 6, title: 'Introduction to SQL', image: Certificate6 },
-];
+  { id: 7, title: 'SQL Intermediate', image: Certificate7 },
+]; 
 
 export default function Certificates() {
   return (
