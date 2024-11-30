@@ -77,7 +77,7 @@ export default function Home() {
         {/* Gambar di sebelah kanan */}
         <div className="w-full md:w-1/2 p-4 text-center">
           <Image
-            src={foto}
+            src='/assets/images/foto.jpg'
             alt="Profile Picture of Raihan Prasetia"
             className="rounded-full mx-auto"
             width={380}

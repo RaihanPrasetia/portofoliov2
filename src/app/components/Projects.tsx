@@ -4,13 +4,6 @@ import { useState } from 'react';
 import Image from "next/image";
 import '../assets/css/Project.css';
 
-import logo1 from '../assets/images/logos/mysql.png';
-// import logo2 from '../assets/images/logos/php.png';
-import logo3 from '../assets/images/logos/laravel.png';
-import logo4 from '../assets/images/logos/bootstrap.png';
-import image1 from '../assets/images/sentrawarga.png';
-// import image2 from '../assets/images/Certificate2.jpg';
-
 export default function Projects() {
 
   const [showFullDescription, setShowFullDescription] = useState(false);
@@ -20,8 +13,8 @@ export default function Projects() {
       id: 1,
       title: "Sentra Warga",
       deskripsi: "Sentra Warga adalah Platform e-commerce yang bertujuan untuk memberikan pengalaman berbelanja digital bagi masyarakat yang inovatif dan menarik untuk dikunjungi, website Sentra warga dikhusukan untuk penjual dalam mengelolah pesanan, produk, stok barang, dan profile toko, dengan Design yang menarik dan user friendly",
-      logos: [{ src: logo1, name: "MySQL" }, { src: logo3, name: "Laravel" }, { src: logo4, name: "Bootstrap" }],
-      image: image1,
+      logos: [{ src: '/assets/images/logos/mysql.png', name: "MySQL" }, { src: '/assets/images/logos/laravel.png', name: "Laravel" }, { src: '/assets/images/logos/bootstrap.png', name: "Bootstrap" }],
+      image: '/assets/images/sentrawarga.png',
       website: "https://sentrawarga.com"
     }
   ];
@@ -44,7 +37,7 @@ export default function Projects() {
                 src={project.image}
                 alt={project.title}
                 width={500}
-                min-height={500}
+                height={500}
                 className="object-contain mb-4 mx-auto"
               />
               <h3 className="text-3xl font-semibold text-white text-center mb-4 text-tf">

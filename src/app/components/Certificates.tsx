@@ -1,23 +1,16 @@
 import Image from 'next/image';
 import '../assets/css/Certificate.css';
-import Certificate1 from '../assets/images/Certificate1.jpg';
-import Certificate2 from '../assets/images/Certificate2.jpg';
-import Certificate3 from '../assets/images/Certificate3.jpg';
-import Certificate4 from '../assets/images/Certificate4.jpg';
-import Certificate5 from '../assets/images/Certificate5.jpg';
-import Certificate6 from '../assets/images/Certificate6.jpg';
-import Certificate7 from '../assets/images/Certificate7.jpg';
-import Certificate8 from '../assets/images/Web Dev.jpg';
+
 
 const certificates = [
-  { id: 1, title: 'Certificate Peserta - Vetencode', image: Certificate1 },
-  { id: 2, title: 'Certificate MSIB 6 - Kampus Merdeka', image: Certificate2 },
-  { id: 3, title: 'Pemprograman Web Dasar - Dicoding', image: Certificate3 },
-  { id: 4, title: 'Membuat Aplikasi Back-End - Dicoding', image: Certificate4 },
-  { id: 5, title: 'Cloud Practitioner Essentials (AWS Cloud)', image: Certificate5 },
-  { id: 6, title: 'Introduction to SQL', image: Certificate6 },
-  { id: 7, title: 'SQL Intermediate', image: Certificate7 },
-  { id: 8, title: 'Web Development', image: Certificate8 },
+  { id: 1, title: 'Certificate Peserta - Vetencode', image: '/assets/images/Certificate1.jpg' },
+  { id: 2, title: 'Certificate MSIB 6 - Kampus Merdeka', image: '/assets/images/Certificate2.jpg' },
+  { id: 3, title: 'Pemprograman Web Dasar - Dicoding', image: '/assets/images/Certificate3.jpg' },
+  { id: 4, title: 'Membuat Aplikasi Back-End - Dicoding', image: '/assets/images/Certificate4.jpg' },
+  { id: 5, title: 'Cloud Practitioner Essentials (AWS Cloud)', image: '/assets/images/Certificate5.jpg' },
+  { id: 6, title: 'Introduction to SQL', image: '/assets/images/Certificate6.jpg' },
+  { id: 7, title: 'SQL Intermediate', image: '/assets/images/Certificate7.jpg' },
+  { id: 8, title: 'Web Development', image: '/assets/images/Web Dev.jpg' },
 ]; 
 
 export default function Certificates() {
